@@ -6,7 +6,8 @@ export default function Inicio() {
     return (
         <View>
             <Text>Olá mundo!</Text>
-            <Button texto='Botão'
+            <Button
+                title='Botao'
                 onPress={() => props.navigation.navigate('Home')}></Button>
         </View>
     )

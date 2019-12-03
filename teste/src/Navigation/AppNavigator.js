@@ -17,3 +17,5 @@ const PjNavigator = createStackNavigator({
         screen: HomeScreen,
     }
 })
+
+export default createAppContainer(PjNavigator)

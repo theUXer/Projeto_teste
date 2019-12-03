@@ -2,10 +2,15 @@ import React from 'react'
 import Button from '../../Components/Button'
 import { View, Text } from 'react-native'
 
-<View>
-    <Text>Olá Mundo!</Text>
-    <Button
-        texto='Botão'
-        onPress={() => props.navigation.navigate('Home')} />
+export default function Home({ navigation }) {
+    return (
+        <View>
+            <Text>Olá Mundo!</Text>
+            <Button
+                texto='Botão'
+                onPress={() => navigation.navigate('Home')} />
 
-</View>
+        </View>
+    )
+}
+
