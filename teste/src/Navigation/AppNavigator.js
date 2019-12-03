@@ -1,8 +1,10 @@
-import { createAppContainer, createSwitchNavigator } from 'reat-navigation'
+import React from 'react'
+
+import { createAppContainer, createSwitchNavigator } from 'react-navigation'
 import { createStackNavigator } from 'react-navigation-stack'
 
-import InicioScreen from '../Screens/Inicio/index'
-import HomeScreen from '../Screens/Home/index'
+import InicioScreen from '../Screens/Inicio'
+import HomeScreen from '../Screens/Home'
 
 const PjNavigator = createStackNavigator({
     Inicio: {
