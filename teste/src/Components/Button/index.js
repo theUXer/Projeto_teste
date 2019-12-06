@@ -7,8 +7,8 @@ export default function Button({ onPress, texto }) {
         <TouchableOpacity
             style={[{
                 borderRadius: 50,
-                width: 100,
-                height: 50,
+                width: 300,
+                height: 200,
                 marginLeft: 5,
                 justifyContent: 'center',
                 alignItems: 'center',
