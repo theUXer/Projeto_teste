@@ -2,7 +2,7 @@ import React from 'react'
 import { TouchableOpacity, Text } from 'react-native'
 
 
-export default function Button({ onPress, texto }) {
+export default function Button(props) {
     return (
         <TouchableOpacity
             style={[{
@@ -14,8 +14,8 @@ export default function Button({ onPress, texto }) {
                 alignItems: 'center',
                 backgroundColor: '#000'
             }, props.style]}
-            onPress={onPress}>
-            <Text style={{ color: '#fff' }}>{texto}</Text>
+            onPress={props.onPress}>
+            <Text style={{ color: '#fff' }}>{props.texto}</Text>
         </TouchableOpacity>
     )
 }
