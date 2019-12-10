@@ -5,7 +5,7 @@ import { setRecoveryProps } from 'expo/build/ErrorRecovery/ErrorRecovery'
 export default function Inicio({ navigation }) {
 
     return (
-        <View style={style.viewImage}>
+        <View /*tinha um styles aqui mas deu problema*/ >
             <Text>Olá mundo!</Text>
             <Button
                 title='Botao'
