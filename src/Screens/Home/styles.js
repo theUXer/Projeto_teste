@@ -7,4 +7,9 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-evenly'
     },
+    text: {
+        color: '#000',
+        fontSize: 50,
+        fontFamily: 'Lilita'
+    }
 })
