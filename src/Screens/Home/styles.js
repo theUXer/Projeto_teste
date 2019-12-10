@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native'
 
-const sttyles = StyleSheet.create({
+export const styles = StyleSheet.create({
     content: {
         flexGrow: 0.5,
         width: '100%',
