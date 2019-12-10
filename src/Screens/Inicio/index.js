@@ -5,11 +5,11 @@ import { styles } from '../Inicio/styles'
 
 import { Background } from '../../Components/Background'
 
-
+import { Baby } from '../../helpers/Images'
 export default function Inicio({ navigation }) {
 
     return (
-        <Background>
+        <Background source={Baby} resizeMode='cover'>
             <View style={styles.content} >
                 <Text>Olá mundo! Tudo bem?</Text>
                 <Button

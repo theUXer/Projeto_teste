@@ -1,0 +1,1 @@
+export const Baby = require('../../assests/baby_yoda.gif')
