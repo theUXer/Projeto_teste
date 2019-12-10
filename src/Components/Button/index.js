@@ -6,9 +6,9 @@ export default function Button(props) {
     return (
         <TouchableOpacity
             style={[{
-                borderRadius: 50,
-                width: 300,
-                height: 200,
+                //borderRadius: 50,
+                width: 50,
+                height: 50,
                 marginLeft: 5,
                 justifyContent: 'center',
                 alignItems: 'center',

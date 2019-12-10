@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Button, Text } from 'react-native'
 import { setRecoveryProps } from 'expo/build/ErrorRecovery/ErrorRecovery'
-import { styles } from '../Home/styles'
+import { styles } from '../Inicio/styles'
 
 export default function Inicio({ navigation }) {
 
