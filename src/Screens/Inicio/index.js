@@ -11,7 +11,7 @@ export default function Inicio({ navigation }) {
     return (
         <Background source={Baby} resizeMode='cover'>
             <View style={styles.content} >
-                <Text>Olá mundo! Tudo bem?</Text>
+                <Text style={styles.text}>Olá mundo! Tudo bem?</Text>
                 <Button
                     title='Botao'
                     onPress={() => navigation.navigate('Home')}></Button>

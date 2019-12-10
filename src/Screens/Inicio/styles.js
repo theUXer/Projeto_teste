@@ -7,4 +7,8 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-evenly'
     },
+
+    text: {
+        color: '#00f'
+    }
 })
