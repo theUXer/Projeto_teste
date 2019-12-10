@@ -7,7 +7,7 @@ export default function Inicio({ navigation }) {
 
     return (
         <View style={styles.content} >
-            <Text>Olá mundo!</Text>
+            <Text>Olá mundo! Tudo bem?</Text>
             <Button
                 title='Botao'
                 onPress={() => navigation.navigate('Home')}></Button>
