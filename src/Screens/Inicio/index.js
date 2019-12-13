@@ -1,7 +1,8 @@
 import React from 'react'
-import { View, Button, Text } from 'react-native'
+import { View, Text } from 'react-native'
 import { setRecoveryProps } from 'expo/build/ErrorRecovery/ErrorRecovery'
 import { styles } from '../Inicio/styles'
+import Button from '../../Components/Button'
 
 import { Background } from '../../Components/Background'
 
@@ -13,7 +14,7 @@ export default function Inicio({ navigation }) {
             <View style={styles.content} >
                 <Text style={styles.text}>Olá mundo! Tudo bem?</Text>
                 <Button style={styles.botao}
-                    title='lala'
+                    texto='lala'
                     onPress={() => navigation.navigate('Home')}></Button>
             </View>
         </Background >

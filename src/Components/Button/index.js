@@ -15,7 +15,7 @@ export default function Button(props) {
                 backgroundColor: '#000'
             }, props.style]}
             onPress={props.onPress}>
-            <Text style={{ color: '#fff' }}>{props.texto}</Text>
+            <Text style={{ color: '#fff', fontSize: 25 }}>{props.texto}</Text>
         </TouchableOpacity>
     )
 }
