@@ -5,6 +5,7 @@ import { createStackNavigator } from 'react-navigation-stack'
 
 import InicioScreen from '../Screens/Inicio'
 import HomeScreen from '../Screens/Home'
+import PrincipalScreen from '../Screens/Principal'
 
 const PjNavigator = createStackNavigator({
     Inicio: {
@@ -15,6 +16,12 @@ const PjNavigator = createStackNavigator({
     },
     Home: {
         screen: HomeScreen,
+        navigationOptions: {
+            header: null
+        }
+    },
+    Principal: {
+        screen: PrincipalScreen,
         navigationOptions: {
             header: null
         }

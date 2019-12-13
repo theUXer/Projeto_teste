@@ -18,7 +18,7 @@ export default function Home({ navigation }) {
                 <Input color='#040' placeholder="Entre com sua senha"></Input>
                 <Button
                     texto='Voltar'
-                    onPress={() => navigation.goBack()} />
+                    onPress={() => navigation.navigate('Principal')} />
 
             </View>
         </Background>
