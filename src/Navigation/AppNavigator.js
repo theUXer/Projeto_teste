@@ -15,6 +15,9 @@ const PjNavigator = createStackNavigator({
     },
     Home: {
         screen: HomeScreen,
+        navigationOptions: {
+            header: null
+        }
     }
 })
 

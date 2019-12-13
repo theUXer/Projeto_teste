@@ -9,6 +9,12 @@ export const styles = StyleSheet.create({
     },
 
     text: {
-        color: '#00f'
+        color: '#fff',
+        fontSize: 30
+    },
+    botao: {
+        height: 50,
+        width: 200,
+        color: '#000'
     }
 })
